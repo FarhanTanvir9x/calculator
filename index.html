@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="calculator">
+    <input type="text" name="display" class="display" readonly="readonly">
+    <div class="button">
+        <button onclick="
+        currentValue = '';
+        displayValue();
+        ">C
+        
+        </button>
+        
+        <button 
+        onclick="
+       currentValue = currentValue + '/';
+       displayValue();
+        "
+        >÷</button>
+        
+        
+        <button
+        onclick="
+       currentValue = currentValue + '*';
+       displayValue();
+        "
+        >×</button>
+        <button 
+        onclick="
+        currentValue = '';
+        displayValue();
+        "
+        >C</button>
+        <button
+        onclick="
+       currentValue = currentValue + '7';
+       displayValue();
+        "
+        >7</button>
+        
+        <button
+        onclick="
+       currentValue = currentValue + '8';
+       displayValue();
+        "
+        >8</button>
+        
+        
+        <button 
+        onclick="
+       currentValue = currentValue + '9';
+       displayValue();
+        "
+        >9</button>
+        
+        <button 
+        onclick="
+       currentValue = currentValue + '-';
+       displayValue();
+        "
+        >-</button>
+        <button
+        onclick="
+       currentValue = currentValue + '4';
+       displayValue();
+        "
+        >4</button>
+        
+        <button 
+        onclick="
+       currentValue = currentValue + '5';
+       displayValue();
+        "
+        >5</button>
+        
+        <button
+        onclick="
+       currentValue = currentValue + '6';
+       displayValue();
+        "
+        >6</button>
+        
+        <button
+        onclick="
+       currentValue = currentValue + '+';
+       displayValue();
+        "
+        >+</button>
+        
+        <button
+        onclick="
+       currentValue = currentValue + '1';
+       displayValue();
+        "
+        >1</button>
+        
+        <button
+        onclick="
+       currentValue = currentValue + '2';
+       displayValue();
+        "
+        >2</button>
+        
+        <button
+        onclick="
+       currentValue = currentValue + '3';
+       displayValue();
+        "
+        >3</button>
+        
+        <button
+        onclick="
+        currentValue = eval(currentValue);
+       displayValue();
+        "
+        >=</button>
+        
+        <button
+        onclick="
+       currentValue = currentValue + '/100';
+       displayValue();
+        "
+        >%</button>
+        <button 
+        onclick="
+       currentValue = currentValue + '0';
+       displayValue();
+        "
+        >0</button>
+        
+        <button
+        onclick="
+       currentValue = currentValue + '.';
+       displayValue();
+        "
+        >.</button>
+    </div>
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
